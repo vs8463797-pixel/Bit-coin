@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Investment Plans</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      min-height: 100dvh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* Background Image with minimal dark layer */
+      background-image: linear-gradient(rgba(5, 7, 15, 0.4), rgba(5, 7, 15, 0.55)),
+                        url("image_0.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      color: #ffffff;
+      padding: 14px;
+    }
+
+    /* Transparent Glass Card - Bitcoin will clearly show through */
+    .card {
+      background: rgba(10, 12, 22, 0.45);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border-radius: 24px;
+      padding: 24px 16px;
+      width: 100%;
+      max-width: 400px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.8), inset 0 0 15px rgba(255, 255, 255, 0.05);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.35rem;
+      margin-bottom: 20px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      color: #00f2fe;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9), 0 0 10px rgba(0, 242, 254, 0.5);
+      line-height: 1.3;
+    }
+
+    .plan-list {
+      list-style: none;
+      text-align: left;
+      margin-bottom: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+    }
+
+    /* Compact semi-transparent list bars */
+    .plan-list li {
+      font-size: 0.92rem;
+      line-height: 1.4;
+      padding: 10px 12px;
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.65);
+      font-weight: 600;
+      color: #ffffff;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .plan-list li:nth-child(1) { border-left: 4px solid #ff007f; }
+    .plan-list li:nth-child(2) { border-left: 4px solid #00f2fe; }
+    .plan-list li:nth-child(3) { border-left: 4px solid #f7931a; }
+    .plan-list li:nth-child(4) { border-left: 4px solid #00ff88; }
+
+    /* Pulsing CTA Button */
+    .telegram-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 14px 16px;
+      background: linear-gradient(135deg, #00c6ff, #0072ff, #ff007f);
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 700;
+      border-radius: 50px;
+      box-shadow: 0 0 18px rgba(0, 198, 255, 0.7);
+      animation: popup 1.4s infinite ease-in-out;
+      cursor: pointer;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    @keyframes popup {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 198, 255, 0.8);
+      }
+      50% {
+        transform: scale(1.04);
+        box-shadow: 0 0 0 10px rgba(255, 0, 127, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 198, 255, 0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Simple Investement Project Plans</h1>
+
+    <ul class="plan-list">
+      <li>👉 Suru kre investment plan ₹3,000 - ₹5,000</li>
+      <li>👉 Profit refund within 35 min. To 45 min.</li>
+      <li>👉 Join today my official telegram channel 🚀</li>
+      <li>👉 Trusted and genuine work here.</li>
+    </ul>
+
+    <a href="https://t.me/+gMRj4t1IODQzMGY1" target="_blank" rel="noopener noreferrer" class="telegram-btn">
+      telegram channel button 🚀
+    </a>
+  </div>
+
+</body>
+</html>
+
